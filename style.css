@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');ort url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
-/*  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -12,20 +11,27 @@
 html,body{
     height: 100%;
     width: 100%;
-    background-color: #EFEAE3;
+    /* background-color: #EFEAE3; */
     /* font-family: "Open Sans", serif; */
 }
+#main{
+    /* background-color: black; */
+    position: relative;
+    z-index: 10;
+}
+
 #page1{
     min-height: 100vh;
     width: 100%;
     position: relative;
     padding: 0 2vw;
+    background-color: #EFEAE3;
 }
 
 /* nav-animation start */
 
 nav{
-    padding: 2vw 3vw;
+    padding: 2.5vw 0;
     width: 100%;
     display: flex;
     align-items: center;
@@ -87,6 +93,7 @@ nav{
 
 
 #center{
+    top: 9%;
     padding-bottom: 2.5vw;
     height: 65vh;
     width: 100%;
@@ -99,21 +106,24 @@ nav{
 
 #left h3{
     width: 33vw;
-    font-size: 1.8vw;
+    font-size: 2.2vw;
     line-height: 2vw;
+    font-family: system-ui;
 }
 
 #right h1{
-    
-    font-size: 7vw;
-    text-align: right;
+    font-family: system-ui;
+    font-size: 10vw;
+    text-align: end;
+    line-height: 82%;
+    padding-right: 1vw;
 }
 
 
 video{
     border-radius: 30px;
     margin-top: 5vw;
-    padding: 2%;
+    /* padding: 2%; */
     border-radius: 3.5vw;
     width: 100%;
    
@@ -199,6 +209,8 @@ video{
     min-width: 100vh;
     padding-top: 8vw;
     position: relative;
+    background-color: #EFEAE3;
+
     
 
 }
@@ -271,6 +283,7 @@ video{
     font-size: 3.5vw;
     width: 60%;
     line-height: 3.5vw ;
+    font-family: system-ui;
 }
 
 #bottom-part2{
@@ -353,6 +366,7 @@ video{
 .elem h2{
     font-size: 3vw;
     z-index: 999;
+    font-family: system-ui;
     
 }
 
@@ -371,7 +385,244 @@ video{
 .elem:hover .overlay{
     top: 0;
     
+}
+
+/* #elem-container{
+    background-color: rgba(0, 179, 255, 0.284);
+} */
+
+#fixed-image{
+    height: 30vw;
+    width: 24vw;
+    /* background: red; */
+    border-radius: 10px;
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+    top: 25%;
+    /* gayad kardo div ko jab tak hover na ho */
+    display: none;
+
+    background-size: cover;
+    background-position: center;
+
+
+}
     
+
+
+#black-box{
+    height: 110vh;
+    margin: 0vw 2vw;
+    background-color: black;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+}
+#black-box #tab-sec {
+    color: #EFEAE3;
+    display: flex;
+    flex-direction: column;
+    padding: 0 9vw;
+    gap: 14px;
+}
+
+/* #black-box #right img{
+    width: 60%;
+    height: 100%;
+    
+    background-size: cover;
+    border-radius: 21px;
+} */
+
+
+
+
+
+
+/* page4 */
+#page4{
+    height: 60vh;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 2vw;
+}
+
+
+/* page4 ka swiper js ka css wala copied code */
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-slide {
+    width: 60%;
+  }
+
+/* end swiper js code for css */
+
+
+
+
+
+/* slider page ke liye */
+#page5{
+    height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+}
+#footer{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    z-index: 9;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 2vw 3vw;
+    padding-bottom: 10%;
+}
+
+#footer h1{
+    font-size: 22.5vw;
+    color: #e1d9d9;
+    font-family: system-ui;
+    z-index: 999;
+}
+
+#footer-div{
+    height: 20vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    color: #fff;
+    font-family: system-ui;
+    justify-content:space-between;
+    /* top: 20%; */
+}
+#div-right{
+    z-index: 999;
+    
+}
+
+#div-right p,h6{
+    /* padding-left: 40%; */
+    font-family: "Plus Jakarta Sans", serif;
+    font-size: 1.5vw;
+    line-height: 2vw;
+   
+}
+#div-right h6{
+    border-bottom: 1px solid rgb(169, 169, 169);
+    padding-top: 10%;
+    color:rgb(211, 202, 202) ;
+}
+
+
+#div-left{
+    z-index: 999;
+    padding-left: 3.5%;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+}
+#div-left h2{
+    font-family: "Plus Jakarta Sans", serif;
+    color: #e3dada;
+} 
+    
+
+
+#footer-bottom{
+    border-top: 1px solid gray;
+    height: 10vh;
+    width: 100%;
+    /* background-color: red; */
+    color: #cec4c4;
+    display: flex;
+    justify-content: space-between;
+}
+    
+
+#footer-bottom h5{
+    display: block;
+    font-size: 1vw;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: "Plus Jakarta Sans", serif;
+
+}
+
+
+#shape1{
+    position: absolute;
+    background-color: #fe330a;
+    filter: blur(50px);
+    top: -50%;
+    left: -20%;
+    z-index: 9;
+    width: 90%;
+    height: 90%;
+    z-index: 9;
+    animation-name: shape1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#shape2{
+    position: absolute;
+    background-color: #fe330A;
+    width: 60%;
+    height: 90%;
+    right: -20%;
+    z-index: 9;
+    top: -25%;
+    filter: blur(50px);
+    animation-name: shape2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes shape1{
+    from{
+        transform: translate(-5%, -10%);
+    }
+    to{
+        transform: skew(45deg)
+    }
+}
+    
+@keyframes shape2{
+    from{
+        transform: skew(30deg);
+    }
+    to{
+        transform: skew(45deg);
+    }
 }
 
 

@@ -6,9 +6,23 @@
     <title>Sundown Studio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="style.css">
+
+    <!-- swiper-js css ki cdn ka link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 </head>
 <body>
+    <!-- hover wali image -->
+    <div id="fixed-image">
+
+    </div>
+
+
+
+
     <div id="main">
+        
+        <!-- page1 -->
         <div id="page1">
                 <nav>
                     <img src="https://assets-global.website-files.com/64d3dd9edfb41666c35b15b7/64d3dd9edfb41666c35b15c2_Sundown%20logo.svg" alt="">
@@ -34,11 +48,14 @@
                     <div id="hero3"></div>
                 </div>
 
+                <div><hr></div>
 
-            </div>
+
                 <video src="https://sundown-ivory.vercel.app/video.mp4" autoplay muted loop ></video>
+        </div>
 
-            <div id="page2">
+        <!-- page2 -->
+        <div id="page2">
 
                 
                 
@@ -93,44 +110,124 @@
                 </div>
 
 
-            </div>
+        </div>
 
 
-            <!-- page3 -->
-            <div id="page3">
+        <!-- page3 -->
+        <div id="page3">
 
-                <div class="elem">
+            <div id="elem-container">
+
+                <div class="elem" data-image="https://images.unsplash.com/photo-1637666561380-db41a5a6ede5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fG5pa2UlMjBzdG9yZXxlbnwwfHwwfHx8MA%3D%3D">
+                    <div class="overlay"></div>
+                    <h2>Play New Kidvision</h2>
+                </div>
+
+                <div class="elem" data-image="https://images.unsplash.com/photo-1471341971476-ae15ff5dd4ea?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3R1ZGlvfGVufDB8fDB8fHww">
                     <div class="overlay"></div>
                     <h2>Makers Studio HOI</h2>
                 </div>
-
-                <div class="elem">
+        
+                <div class="elem" data-image="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     <div class="overlay"></div>
                     <h2>50th Anniversary</h2>
                 </div>
 
-                <div class="elem">
-                    <div class="overlay"></div>
-                    <h2>NYFW Popup</h2>
-                </div>
-
-                <div class="elem">
+                <div class="elem" data-image="https://plus.unsplash.com/premium_photo-1675186049419-d48f4b28fe7c?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
                     <div class="overlay"></div>
                     <h2>Air Force 12021</h2>
                 </div>
 
-                <div class="elem">
+                <div class="elem" data-image="https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=3570&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D">
+                    <div class="overlay"></div>
+                    <h2>NYFW Popup</h2>
+                </div>
+
+                <div class="elem" data-image="https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG9mZmljZXxlbnwwfHwwfHx8MA%3D%3D">
                     <div class="overlay"></div>
                     <h2>SOHO NYC</h2>
                 </div>
 
-                <div class="elem">
+                <div class="elem" data-image="https://images.unsplash.com/photo-1518343948751-b394fa54ac39?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D">
                     <div class="overlay"></div>
                     <h2>SOHO 2023</h2>
                 </div>
 
-
             </div>
+
+        </div>
+
+        <!-- page-4 -->
+        <div id="page4">
+
+        <!-- black-box -->
+        <!-- <div id="black-box">
+                <div id="left"></div>
+                <div id="right"><img src="https://sundown-ivory.vercel.app/page4-1.webp" alt=""></div>
+            </div>-->
+        
+
+            <!-- swiper js ka html code  -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">Slide 1</div>
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+                  <div class="swiper-slide">Slide 4</div>
+                  <div class="swiper-slide">Slide 5</div>
+                  <div class="swiper-slide">Slide 6</div>
+                  <div class="swiper-slide">Slide 7</div>
+                </div>
+                
+              </div>
+
+        </div>
+
+        
+        <!-- page5 -->
+        <div id="page5">
+        </div>
+
+        
+    </div>    
+    
+    <div id="footer">
+
+        <div id="footer-div">
+            <div id="shape1"></div>
+            <div id="shape2"></div>
+            <div id="div-left">
+                <h2>Work</h2>
+                <h2>Studio</h2>
+                <h2>Contact</h2>
+            </div>
+            <div id="div-right">
+                <p>Get industry insights and creative <br> inspiration straight to your inbox.</p>
+                <h6>Email-Address</h6>
+            </div>
+        </div>
+
+            <h1>Sundown</h1>
+            <div id="footer-bottom">
+                <h5>Copyright © Sundown Studio</h5>
+                <h5>Brooklyn NY</h5>
+                <h5>Instagram</h5>
+                <h5>LinkedIn</h5>
+            </div>
+    </div>
+
+
+
+
+
+
+            
+            
+
+
+            
+
+        
 
 
         </div>
@@ -142,18 +239,17 @@
 
 
 
+    
+
     <!-- locomotive -->
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>   <!-- locomotive-scroll.js is used for smooth scrolling on webpage -->
 
-    <!-- link -->
-    <!-- <script src="script.js "></script> -->
+    <!-- swiper-js ke js ka cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-    <!-- gsap -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
-    <!-- scroll-trigger -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    
+    <!-- js page ka link -->
+    <script src="script.js "></script>
+
 </body>
 </html>
     
