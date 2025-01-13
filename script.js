@@ -1,8 +1,10 @@
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('[#main]'),
-//     smooth: true
-// });
-
+function locomotiveScroll(){
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('[#main]'),
+        smooth: true
+    });
+    
+}
  
 
 
@@ -73,11 +75,11 @@ function loaderAnimation(){
 
 }
 
-
 swiperAnimation()
 page4Animation()
 menuAnimation()
 loaderAnimation()
+locomotiveScroll()
 
 
 
