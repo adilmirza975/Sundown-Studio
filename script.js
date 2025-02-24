@@ -46,7 +46,7 @@ function swiperAnimation(){
       });
 }
 
-
+// animation for  
 function menuAnimation(){
 // code for menu to become fade on clicking
 var menu = document.querySelector("nav h3")
@@ -75,11 +75,13 @@ function loaderAnimation(){
 
 }
 
-swiperAnimation()
+locomotiveScroll()
 page4Animation()
+swiperAnimation()
 menuAnimation()
 loaderAnimation()
-locomotiveScroll()
+
+
 
 
 
