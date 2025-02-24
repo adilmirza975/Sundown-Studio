@@ -75,11 +75,11 @@ function loaderAnimation(){
 
 }
 
-locomotiveScroll()
+loaderAnimation()
 page4Animation()
 swiperAnimation()
 menuAnimation()
-loaderAnimation()
+locomotiveScroll()
 
 
 
